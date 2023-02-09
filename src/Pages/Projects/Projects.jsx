@@ -2,41 +2,52 @@ import { useState } from "react";
 import ProjectTemplate from "../../Components/ProjectTemplate/ProjectTemplate";
 import "./Projects.scss";
 
+import adminProject from "../../assets/admin-dashboard.png";
+import instagramProject from "../../assets/instagram-2.png";
+import nftProject from "../../assets/nft-portfolio.png";
+import gamingProject from "../../assets/react-gaming.png";
+import portfolioProject from "../../assets/reactportfolio.png";
+
 const Projects = () => {
-  const [tags] = useState(["Tag", "Tag", "Tag", "Tag", "Tag"]);
+  const [tags] = useState(["React", "CSS/SCSS", "Tag", "Tag", "Others"]);
 
   return (
     <div className="projects-wrapper">
       <div></div>
 
       <ProjectTemplate
-        projectName="Project 1"
+        projectName="Admin Dashboard"
         projectDesc="Project Description"
         tags={tags}
+        img={adminProject}
       />
 
       <ProjectTemplate
-        projectName="Project 2"
+        projectName="Instagram 2.0"
         projectDesc="Project Description"
         tags={tags}
+        img={instagramProject}
       />
 
       <ProjectTemplate
-        projectName="Project 3"
+        projectName="NFT-Portfolio"
         projectDesc="Project Description"
         tags={tags}
+        img={nftProject}
       />
 
       <ProjectTemplate
-        projectName="Project 4"
+        projectName="Gaming"
         projectDesc="Project Description"
         tags={tags}
+        img={gamingProject}
       />
 
       <ProjectTemplate
-        projectName="Project 5"
+        projectName="Portfolio"
         projectDesc="Project Description"
         tags={tags}
+        img={portfolioProject}
       />
 
       <div></div>

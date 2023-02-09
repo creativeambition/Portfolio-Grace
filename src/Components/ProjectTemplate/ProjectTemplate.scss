@@ -45,13 +45,29 @@
   .project-images {
     display: flex;
     flex: 2;
+    border-radius: 10px;
+    overflow: hidden;
 
-    .img1 {
+    .img {
       background-color: rgb(0, 0, 0);
       flex: 1;
       aspect-ratio: 4/3;
-      border-radius: 10px;
       cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: left;
+        transition: 1s ease;
+      }
+
+      &:hover img {
+        object-position: right;
+      }
     }
   }
 }
@@ -82,7 +98,7 @@
     .project-images {
       width: 100%;
 
-      .img1 {
+      .img {
         aspect-ratio: 2/2;
       }
     }
