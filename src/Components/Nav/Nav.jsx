@@ -29,11 +29,11 @@ const Nav = () => {
       });
     });
 
-    return () => {
-      toggleNav.addEventListener("click", () => {
+    toggleNav.addEventListener("click", () => {
+      return () => {
         nav.classList.toggle("active");
-      });
-    };
+      };
+    });
   }, []);
 
   return (
