@@ -19,35 +19,35 @@ const Projects = () => {
         projectName="Admin Dashboard"
         projectDesc="Project Description"
         tags={tags}
-        img={adminProject}
+        // img={adminProject}
       />
 
       <ProjectTemplate
         projectName="Instagram 2.0"
         projectDesc="Project Description"
         tags={tags}
-        img={instagramProject}
+        // img={instagramProject}
       />
 
       <ProjectTemplate
         projectName="NFT-Portfolio"
         projectDesc="Project Description"
         tags={tags}
-        img={nftProject}
+        // img={nftProject}
       />
 
       <ProjectTemplate
         projectName="Gaming"
         projectDesc="Project Description"
         tags={tags}
-        img={gamingProject}
+        // img={gamingProject}
       />
 
       <ProjectTemplate
         projectName="Portfolio"
         projectDesc="Project Description"
         tags={tags}
-        img={portfolioProject}
+        // img={portfolioProject}
       />
 
       <div></div>
