@@ -85,7 +85,7 @@ header {
       background-color: black;
       object-fit: cover;
       translate: 0 -160%;
-      transition: 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+      transition: 0.3s ease;
     }
 
     &.active img {
